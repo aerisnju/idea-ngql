@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.tony"
-version = "1.2"
+version = "1.3-snapshot"
 
 sourceSets["main"].java.srcDirs("src/main/gen")
 
@@ -34,7 +34,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("222")
-        untilBuild.set("232.*")
+        untilBuild.set("233.*")
     }
 
     signPlugin {
